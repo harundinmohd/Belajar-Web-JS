@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initioal-scale=1"> <!-- meta tag-->
+        <title>To-Do List App</title> 
+    <link rel="stylesheet" href="style.css"> <!-- external stylesheet --> 
+
+    </head>
+
+    <body>
+        <div class="container"> <!-- Main container -->
+            <div class="To-Do-List-App"> <!-- Container of "To-Do App" -->
+                <h2> To-Do List <img src="To-Do-Img/images/Website Icon.png" height="100" width="100"></h2>  <!-- Header & Image -->
+                <div class="row"> <!-- Show row container with input box & add button -->
+                    <input type="text" id="input-box" placeholder="Add your List Here">
+                    <button onClick="addTask()">Add List</button>
+                </div> 
+                <ul id="list-container">
+                    Task 1
+                    <button class="removeBtn"> <img src="To-Do-Img/images/Trash Icon.png"> </button>
+                    <button class="editBtn"><img src="To-Do-Img/images/Edit Icon.png"> </button>
+                </ul>
+                
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
